@@ -1,0 +1,55 @@
+# Project Information
+
+## Overview
+A simple API tool for datetime operations with FastAPI and Langflow integration.
+
+## Project Structure
+```
+simple_agent_api_tool/
+├── app/                    # Main application package
+│   ├── api/               # API endpoints
+│   ├── core/              # Core functionality
+│   └── services/          # Business logic
+├── docs/                  # Documentation
+│   ├── api/              # API documentation
+│   └── development/      # Development guides
+├── tests/                # Test files
+└── requirements/         # Dependencies
+```
+
+## Development Guidelines
+1. Follow PEP 8 style guide
+2. Write docstrings for all functions
+3. Include type hints
+4. Write unit tests for new features
+5. Update documentation for changes
+
+## Changelog
+
+### [Unreleased]
+
+#### Added
+- Initial project setup
+- Basic project structure
+- Documentation structure
+- Development setup guide
+- API documentation
+- Current DateTime component (placeholder)
+- Week Number component (placeholder)
+- Requirements files
+- Git configuration with .gitignore for Python projects
+
+#### Changed
+- None
+
+#### Deprecated
+- None
+
+#### Removed
+- None
+
+#### Fixed
+- None
+
+#### Security
+- None 
