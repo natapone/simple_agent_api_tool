@@ -1,16 +1,18 @@
 # Runtime Dependencies
-fastapi>=0.109.2
-uvicorn>=0.27.1
+fastapi>=0.109.0
+uvicorn>=0.27.0
 pytz>=2024.1
-python-dateutil>=2.8.2
-python-dotenv>=1.0.1
-pydantic>=2.6.1
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+httpx>=0.26.0
 
-# Development Dependencies
-pytest>=8.0.0
-pytest-cov>=4.1.0
-black>=24.2.0
-isort>=5.13.2
-flake8>=7.0.0
-mypy>=1.8.0
-pre-commit>=3.6.0 
+# Development dependencies
+pytest==8.0.0
+pytest-cov==4.1.0
+black==24.2.0
+isort==5.13.2
+flake8==7.0.0
+mypy==1.8.0
+pre-commit==3.6.0
+
